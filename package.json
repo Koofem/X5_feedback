@@ -10,11 +10,7 @@
     "Backs": "./Backs",
     "Class": "./Class",
     "Constants": "./Constants",
-    "Controllers": "./Controllers",
-    "Helpers": "./Helpers",
-    "Libs": "./Libs",
-    "Models": "./Models",
-    "Middleware": "./Middleware"
+    "Models": "./Models"
   },
   "keywords": [],
   "author": "",
