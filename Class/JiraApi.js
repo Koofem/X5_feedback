@@ -9,7 +9,7 @@ class JiraApi {
 			protocol: 'https',
 			host: 'x5feedback.atlassian.net',
 			username: 'mymelmike@yandex.ru',
-			password: '4Rc97iAdXQHaH0LXX68BDCAF',
+			password: process.env.JIRA_TOKEN,
 			apiVersion: '2',
 		});
 

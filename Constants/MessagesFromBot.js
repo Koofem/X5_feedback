@@ -5,7 +5,8 @@ const messages = {
 	OPEN_FEEDBACK_INTRODUCE: 'Хорошо, напиши свою ФИО и отдел',
 	BACK_BUTTON_MESSAGE: 'Хорошо, делай свой выбор',
 	SIMPLE_MESSAGE: 'Сначала нужно выбрать тип обратной связи',
-	THANKS_MESSAGE: 'Спасибо за обратную связь!'
+	THANKS_MESSAGE: 'Спасибо за обратную связь!',
+	ERROR_MESSAGE: 'Что-то пошло не так, попробуйте позже'
 }
 
 module.exports = messages;

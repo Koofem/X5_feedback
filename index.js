@@ -1,5 +1,5 @@
 require('dotenv').config()
-const telegramBot = require('Class/telegramBot');
+const telegramBot = require('Class/TelegramBot');
 const jira = require('Class/JiraApi');
 const UserBD = require('Models/UsersBD');
 const { mongodb } = require('Models/MongoBD');
