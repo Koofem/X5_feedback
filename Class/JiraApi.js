@@ -7,13 +7,13 @@ class JiraApi {
 	async init() {
 		this.jira = new jiraClient({
 			protocol: 'https',
-			host: 'x5feedback.atlassian.net',
-			username: 'mymelmike@yandex.ru',
-			password: process.env.JIRA_TOKEN,
+			host: 'jira.x5food.tech',
+			username: process.env.JIRA_LOGIN,
+			password: process.env.JIRA_PASS,
 			apiVersion: '2',
 		});
 
-		console.log('Заебись, джира подключена')
+		console.log('Джира подключена')
 	}
 
 	async createJiraTask(summary, description) {
@@ -21,7 +21,7 @@ class JiraApi {
 			"fields": {
 				"project":
 					{
-						"key": "FEED"
+						"key": "RETRA"
 					},
 				"summary": `${summary}`,
 				"description": `${description}`,

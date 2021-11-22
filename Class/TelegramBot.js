@@ -21,7 +21,7 @@ class TelegramBot {
 		this.bot.on('text', (ctx) => messageHandler.simpleMessageHandler(ctx));
 
 		this.bot.launch().then(()=> {
-			console.log('Все заебись, бот запущен')
+			console.log('Бот запущен')
 		})
 	}
 }
